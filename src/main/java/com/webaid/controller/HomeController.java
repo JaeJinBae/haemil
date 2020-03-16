@@ -113,15 +113,7 @@ public class HomeController {
 		logger.info("menu04_02");
 		
 		return "menu04/menu04_02";
-	}
-	
-	@RequestMapping(value = "/menu04_3", method = RequestMethod.GET)
-	public String menu04_03(){
-		logger.info("menu04_03");
-		
-		return "menu04/menu04_03";
-	}
-	
+	}	
 	
 	@RequestMapping(value = "/menu05_1", method = RequestMethod.GET)
 	public String menu05_01() {
