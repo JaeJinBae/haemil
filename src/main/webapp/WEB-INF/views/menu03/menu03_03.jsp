@@ -185,10 +185,10 @@
 		font-size:15px;
 		text-align: left;
 	}
-	.sideMenuUl > li:first-child{
+	.sideMenuUl > li:nth-child(3){
 		border-bottom:3px solid lightgray;
 	}
-	.sideMenuUl > li:first-child > a{
+	.sideMenuUl > li:nth-child(3) > a{
 		font-weight:600;
 		color: black;
 	}

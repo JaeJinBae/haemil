@@ -228,10 +228,10 @@
 		font-size:15px;
 		text-align: left;
 	}
-	.sideMenuUl > li:nth-child(2){
+	.sideMenuUl > li:nth-child(3){
 		border-bottom:3px solid lightgray;
 	}
-	.sideMenuUl > li:nth-child(2) > a{
+	.sideMenuUl > li:nth-child(3) > a{
 		font-weight:600;
 		color: black;
 	}
@@ -392,10 +392,10 @@
 		font-size:19px;
 		text-align: left;
 	}
-	.sideMenuUl > li:nth-child(2){
+	.sideMenuUl > li:nth-child(3){
 		border-bottom:3px solid lightgray;
 	}
-	.sideMenuUl > li:nth-child(2) > a{
+	.sideMenuUl > li:nth-child(3) > a{
 		font-weight:600;
 		color: black;
 	}
@@ -511,17 +511,18 @@
 	</header>
 	<section>
 		<div class="topImg">
-			<img class="pcTopImg" src="${pageContext.request.contextPath}/resources/images/menu05TopImg.jpg">
-			<img class="mTopImg" src="${pageContext.request.contextPath}/resources/images/mMenu05TopImg.jpg">
+			<img class="pcTopImg" src="${pageContext.request.contextPath}/resources/images/menu06TopImg.jpg">
+			<img class="mTopImg" src="${pageContext.request.contextPath}/resources/images/mMenu06TopImg.jpg">
 		</div>
 		<div class="contentWrap">
 			<div class="sideMenuWrap">
 				<div class="sideMenu">
 					<h3>FAQ</h3>
 					<ul class="sideMenuUl"> 
-						<li><a href="${pageContext.request.contextPath}/menu05_1">개인회생</a></li>
-						<li><a href="${pageContext.request.contextPath}/menu05_2">개인파산</a></li>
-						<%-- <li><a href="${pageContext.request.contextPath}/menu05_3">민사질문</a></li> --%>
+						<li><a href="${pageContext.request.contextPath}/menu06_1">개인회생</a></li>
+						<li><a href="${pageContext.request.contextPath}/menu06_2">개인파산</a></li>
+						<li><a href="${pageContext.request.contextPath}/menu06_3">법인회생</a></li>
+						<li><a href="${pageContext.request.contextPath}/menu06_4">법인파산</a></li>
 					</ul>
 				</div><!-- sideMenu end -->
 				<jsp:include page="../include/leftMenu_info.jsp"></jsp:include><!-- callInfo end -->
@@ -532,26 +533,30 @@
 							<a href="#none">FAQ<img class="btnArrow" src="${pageContext.request.contextPath}/resources/images/down_arrow.png"></a>
 							<ul class="sub_subDropdown">
 								<li><a href="${pageContext.request.contextPath}/menu01_1">사무소소개</a></li>
-								<li><a href="${pageContext.request.contextPath}/menu02_1">개인회생</a></li>
-								<li><a href="${pageContext.request.contextPath}/menu03_1">개인파산</a></li>
-								<li><a href="${pageContext.request.contextPath}/menu04_1">민사·형사</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu02_1">개인회생/파산</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu03_1">법인회생/파산</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu04_1">상속</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu05_1">민사</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu06_1">FAQ</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="#none">개인파산<img class="btnArrow" src="${pageContext.request.contextPath}/resources/images/down_arrow.png"></a>
+							<a href="#none">법인회생<img class="btnArrow" src="${pageContext.request.contextPath}/resources/images/down_arrow.png"></a>
 							<ul class="sub_subDropdown">
-								<li><a href="${pageContext.request.contextPath}/menu05_1">개인회생</a></li>
-								<%-- <li><a href="${pageContext.request.contextPath}/menu05_3">민사질문</a></li> --%>
+								<li><a href="${pageContext.request.contextPath}/menu06_1">개인회생</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu06_2">개인파산</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu06_3">법인회생</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu06_4">법인파산</a></li>
 							</ul>	
 						</li>
 					</ul>
 				</div><!-- navWrap end -->
 			</div><!-- sideMenuWrap end -->
 			<div class="content">
-				<h1 class="contentTitle">개인파산 FAQ</h1>
+				<h1 class="contentTitle">법인회생 FAQ</h1>
 				<ul class="collapsibleWrap">
 					<li class="collapsible">
-						<h2 class="collapsible_title"><a href="#none">Q. 소득이 전혀 없는 채무자만 개인파산을 신청할 수 있나요?</a></h2>
+						<h2 class="collapsible_title"><a href="#none">Q. 소득이 전혀 없는 채무자만 개인파산을 신청할 수 있나요?</a></h2> 
 						<p class="collapsibleContent">
 							개인파산은 채무자가 소득이 없거나 소득이 있다고 하더라도 최저생활을 할 수 있는 수준의 소득만 있다면 신청할 수 있습니다.
 						</p>

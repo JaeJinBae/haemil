@@ -126,7 +126,7 @@ public class HomeController {
 	public String menu05_02() {
 		logger.info("menu05_02");
 		
-		return "menu05/menu02_02";
+		return "menu05/menu05_02";
 	}
 	
 	@RequestMapping(value = "/menu06_1", method = RequestMethod.GET)

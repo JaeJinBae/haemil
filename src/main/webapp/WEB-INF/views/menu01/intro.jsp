@@ -402,7 +402,7 @@
 					<h3>사무소소개</h3>
 					<ul class="sideMenuUl"> 
 						<li><a href="${pageContext.request.contextPath}/menu01_1">인사말</a></li>
-						<li><a href="${pageContext.request.contextPath}/menu01_2">4가지 약속</a></li>
+						<li><a href="${pageContext.request.contextPath}/menu01_2">운영방침</a></li>
 						<li><a href="${pageContext.request.contextPath}/menu01_3">오시는 길</a></li>
 					</ul>
 				</div><!-- sideMenu end -->
@@ -414,16 +414,19 @@
 						<li>
 							<a href="#none">사무소소개<img class="btnArrow" src="${pageContext.request.contextPath}/resources/images/down_arrow.png"></a>
 							<ul class="sub_subDropdown">
-								<li><a href="${pageContext.request.contextPath}/menu02_1">개인회생</a></li>
-								<li><a href="${pageContext.request.contextPath}/menu03_1">개인파산</a></li>
-								<li><a href="${pageContext.request.contextPath}/menu04_1">민사·형사</a></li>
-								<li><a href="${pageContext.request.contextPath}/menu05_1">자주하는질문</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu01_1">사무소소개</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu02_1">개인회생/파산</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu03_1">법인회생/파산</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu04_1">상속</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu05_1">민사</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu06_1">FAQ</a></li>
 							</ul>
 						</li>
 						<li>
 							<a href="#none">인사말<img class="btnArrow" src="${pageContext.request.contextPath}/resources/images/down_arrow.png"></a>
 							<ul class="sub_subDropdown">
-								<li><a href="${pageContext.request.contextPath}/menu01_2">4가지 약속</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu01_1">인사말</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu01_2">운영방침</a></li>
 								<li><a href="${pageContext.request.contextPath}/menu01_3">오시는 길</a></li>
 							</ul>	
 						</li>
@@ -432,7 +435,7 @@
 			</div><!-- sideMenuWrap end -->
 			<div class="content">
 				<img class="pcContent" src="${pageContext.request.contextPath}/resources/images/menu01_1contentImg.jpg">
-				<img class="tmContent" src="${pageContext.request.contextPath}/resources/images/tmMenu01_1contentImg.jpg">
+				<img class="tmContent" src="${pageContext.request.contextPath}/resources/images/menu01_1contentImg.jpg"> 
 			</div>
 		</div>
 	</section>

@@ -53,18 +53,16 @@
 		color: #5E5E5E;
 	}
 	.mainMenuUl > li:first-child{
-		width:290px;
-		padding-top:23px;
+		width:200px;
+		padding-top:13px;
 	}
 	.logoDiv{
-		width:220px;
+		width: 200px;
 		text-align: left;
-		margin-bottom:23px;
-		margin-left:10px;
 	}
 	.logoWrap > .logoDiv > a{
-		display:block;
-		width:220px;
+		display: block;
+		width: 200px;
 	}
 	.logoWrap > .logoDiv > a > img{
 		width:100%;
@@ -252,13 +250,13 @@
 							<img src="${pageContext.request.contextPath}/resources/images/logo.png">
 						</a>
 					</div>
-					<div class="subMenuWrap">
+					<!-- <div class="subMenuWrap">
 						<div class="subMenuCallInfo">
-						<p>개인회생/개인파산/민사 똑같다고 생각 마세요.</p>
-						<p>여러분의 최고 파트너 <span id="bigtxt">'김재현 변호사'</span>가 함께합니다.</p>
-						<h1>053-719-3557</h1>
-					</div><!-- subMenuCallInfo -->
-					</div>
+							<p>개인회생/개인파산/민사 똑같다고 생각 마세요.</p>
+							<p>여러분의 최고 파트너 <span id="bigtxt">'김재현 변호사'</span>가 함께합니다.</p>
+							<h1>053-719-3557</h1>
+						</div>subMenuCallInfo
+					</div> -->
 				</li>
 				<li>
 					<a class="mMenu" href="#none">사무소소개</a>

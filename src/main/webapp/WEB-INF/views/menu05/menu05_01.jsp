@@ -384,16 +384,16 @@
 	</header>
 	<section>
 		<div class="topImg">
-			<img class="pcTopImg" src="${pageContext.request.contextPath}/resources/images/menu04TopImg.jpg">
-			<img class="mTopImg" src="${pageContext.request.contextPath}/resources/images/mMenu04TopImg.jpg">
+			<img class="pcTopImg" src="${pageContext.request.contextPath}/resources/images/menu05TopImg.jpg">
+			<img class="mTopImg" src="${pageContext.request.contextPath}/resources/images/mMenu05TopImg.jpg">
 		</div>
 		<div class="contentWrap">
 			<div class="sideMenuWrap">
 				<div class="sideMenu">
-					<h3>민사·형사</h3>
+					<h3>민사</h3>
 					<ul class="sideMenuUl"> 
-						<li><a href="${pageContext.request.contextPath}/menu04_1">민사 소송</a></li>
-						<li><a href="${pageContext.request.contextPath}/menu04_2">형사 소송</a></li>
+						<li><a href="${pageContext.request.contextPath}/menu05_1">민사소송이란?</a></li>
+						<li><a href="${pageContext.request.contextPath}/menu05_2">민사진행절차</a></li>
 					</ul>
 				</div><!-- sideMenu end -->
 				<jsp:include page="../include/leftMenu_info.jsp"></jsp:include><!-- callInfo end -->
@@ -401,25 +401,28 @@
 					<ul class="navUl"> 
 						<li><a href="${pageContext.request.contextPath}/"><img class="btnHome" src="${pageContext.request.contextPath}/resources/images/home.png"></a></li>
 						<li>
-							<a href="#none">민사·형사<img class="btnArrow" src="${pageContext.request.contextPath}/resources/images/down_arrow.png"></a>
+							<a href="#none">민사<img class="btnArrow" src="${pageContext.request.contextPath}/resources/images/down_arrow.png"></a>
 							<ul class="sub_subDropdown">
 								<li><a href="${pageContext.request.contextPath}/menu01_1">사무소소개</a></li>
-								<li><a href="${pageContext.request.contextPath}/menu02_1">개인회생</a></li>
-								<li><a href="${pageContext.request.contextPath}/menu03_1">개인파산</a></li>
-								<li><a href="${pageContext.request.contextPath}/menu05_1">자주하는질문</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu02_1">개인회생/파산</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu03_1">법인회생/파산</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu04_1">상속</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu05_1">민사</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu06_1">FAQ</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="#none">민사 소송<img class="btnArrow" src="${pageContext.request.contextPath}/resources/images/down_arrow.png"></a>
+							<a href="#none">민사소송이란<img class="btnArrow" src="${pageContext.request.contextPath}/resources/images/down_arrow.png"></a>
 							<ul class="sub_subDropdown">
-								<li><a href="${pageContext.request.contextPath}/menu04_2">형사 소송</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu05_1">민사소송이란?</a></li>
+						<li><a href="${pageContext.request.contextPath}/menu05_2">민사진행절차</a></li>
 							</ul>	
 						</li>
 					</ul>
 				</div><!-- navWrap end -->
 			</div><!-- sideMenuWrap end -->
 			<div class="content">
-				<img src="${pageContext.request.contextPath}/resources/images/menu04_1contentImg.jpg">
+				<img src="${pageContext.request.contextPath}/resources/images/menu05_1contentImg.jpg">
 			</div>
 		</div>
 	</section>
