@@ -113,20 +113,48 @@ public class HomeController {
 		logger.info("menu04_02");
 		
 		return "menu04/menu04_02";
-	}	
+	}
 	
 	@RequestMapping(value = "/menu05_1", method = RequestMethod.GET)
 	public String menu05_01() {
 		logger.info("menu05_01");
 		
-		return "menu05/freqQnA1";
+		return "menu05/menu05_01";
 	}
-	
+
 	@RequestMapping(value = "/menu05_2", method = RequestMethod.GET)
 	public String menu05_02() {
 		logger.info("menu05_02");
 		
-		return "menu05/freqQnA2";
+		return "menu05/menu02_02";
+	}
+	
+	@RequestMapping(value = "/menu06_1", method = RequestMethod.GET)
+	public String menu06_01() {
+		logger.info("menu06_01");
+		
+		return "menu06/freqQnA1";
+	}
+	
+	@RequestMapping(value = "/menu06_2", method = RequestMethod.GET)
+	public String menu06_02() {
+		logger.info("menu06_02");
+		
+		return "menu06/freqQnA2";
+	}
+
+	@RequestMapping(value = "/menu06_3", method = RequestMethod.GET)
+	public String menu06_03() {
+		logger.info("menu06_03");
+		
+		return "menu06/freqQnA3";
+	}
+	
+	@RequestMapping(value = "/menu06_4", method = RequestMethod.GET)
+	public String menu06_04() {
+		logger.info("menu06_04");
+		
+		return "menu06/freqQnA4";
 	}
 	
 }

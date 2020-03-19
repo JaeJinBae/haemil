@@ -390,10 +390,10 @@
 		<div class="contentWrap">
 			<div class="sideMenuWrap">
 				<div class="sideMenu">
-					<h3>민사·형사</h3>
+					<h3>상속</h3>
 					<ul class="sideMenuUl"> 
-						<li><a href="${pageContext.request.contextPath}/menu04_1">민사 소송</a></li>
-						<li><a href="${pageContext.request.contextPath}/menu04_2">형사 소송</a></li>
+						<li><a href="${pageContext.request.contextPath}/menu04_1">상속재산파산</a></li>
+						<li><a href="${pageContext.request.contextPath}/menu04_2">상속한정승인</a></li>
 					</ul>
 				</div><!-- sideMenu end -->
 				<jsp:include page="../include/leftMenu_info.jsp"></jsp:include><!-- callInfo end -->
@@ -401,18 +401,21 @@
 					<ul class="navUl"> 
 						<li><a href="${pageContext.request.contextPath}/"><img class="btnHome" src="${pageContext.request.contextPath}/resources/images/home.png"></a></li>
 						<li>
-							<a href="#none">민사·형사<img class="btnArrow" src="${pageContext.request.contextPath}/resources/images/down_arrow.png"></a>
+							<a href="#none">상속<img class="btnArrow" src="${pageContext.request.contextPath}/resources/images/down_arrow.png"></a>
 							<ul class="sub_subDropdown">
 								<li><a href="${pageContext.request.contextPath}/menu01_1">사무소소개</a></li>
-								<li><a href="${pageContext.request.contextPath}/menu02_1">개인회생</a></li>
-								<li><a href="${pageContext.request.contextPath}/menu03_1">개인파산</a></li>
-								<li><a href="${pageContext.request.contextPath}/menu05_1">자주하는질문</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu02_1">개인회생/파산</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu03_1">법인회생/파산</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu04_1">상속</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu05_1">민사</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu06_1">FAQ</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="#none">민사 소송<img class="btnArrow" src="${pageContext.request.contextPath}/resources/images/down_arrow.png"></a>
+							<a href="#none">상속재산파산<img class="btnArrow" src="${pageContext.request.contextPath}/resources/images/down_arrow.png"></a>
 							<ul class="sub_subDropdown">
-								<li><a href="${pageContext.request.contextPath}/menu04_2">형사 소송</a></li>
+								<li><a href="${pageContext.request.contextPath}/menu04_1">상속재산파산</a></li>
+						<li><a href="${pageContext.request.contextPath}/menu04_2">상속한정승인</a></li>
 							</ul>	
 						</li>
 					</ul>

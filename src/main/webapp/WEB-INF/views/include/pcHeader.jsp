@@ -136,7 +136,7 @@
 		z-index: 99;
 	}
 	.mainMenuWrap{
-		width:1100px;
+		width:1150px;
 		margin:0 auto;
 		overflow:hidden;
 		position: relative;
@@ -154,19 +154,18 @@
 	}
 	.mainMenuUl > li > a{
 		display:block;
-		font-size:20px;
+		font-size:18px;
 		font-weight:600;
 		margin-bottom:47px;
 		color: #5E5E5E;
 	}
 	.mainMenuUl > li:first-child{
-		width:500px;
-		padding-top:24px;
+		width: 410px;
+		padding-top:10px;
 	}
 	.logoDiv{
 		width:500px;
 		text-align: left;
-		margin-bottom:23px;
 	}
 	.logoWrap > .logoDiv > a{
 		display:block;
@@ -272,7 +271,7 @@
 					</div>
 				</li>
 				<li>
-					<a class="mMenu" href="#none">개인회생·파산</a>
+					<a class="mMenu" href="#none">개인회생/파산</a>
 					<div class="subMenuWrap">
 						<ul class="subMenuUl">
 							<li><a href="${pageContext.request.contextPath}/menu02_1">개인회생이란?</a></li>
@@ -283,7 +282,7 @@
 					</div>
 				</li>
 				<li>
-					<a class="mMenu" href="#none">법인회생·파산</a>
+					<a class="mMenu" href="#none">법인회생/파산</a>
 					<div class="subMenuWrap">
 						<ul class="subMenuUl">
 							<li><a href="${pageContext.request.contextPath}/menu03_1">법인회생</a></li>
