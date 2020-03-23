@@ -159,15 +159,15 @@
 	}
 	.mainMenuUl > li:first-child{
 		width: 410px;
-		padding-top:10px;
+		padding-top:20px;
 	}
 	.logoDiv{
-		width:500px;
+		width:360px;
 		text-align: left;
 	}
 	.logoWrap > .logoDiv > a{
 		display:block;
-		width:300px;
+		width:360px;
 	}
 	.logoWrap > .logoDiv > a > img{
 		width:100%;
