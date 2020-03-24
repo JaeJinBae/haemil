@@ -9,19 +9,19 @@
 <meta charset="UTF-8">
 <title>법률사무소 해밀 박상은 변호사</title>
 <meta name="naver-site-verification" content="d53046e7ecfe442e3b973c1baeb37ec7fc75031d"/>
-<meta name="description" content="대구 법원앞, 개인회생, 개인파산, 민사 등 무료 상담, 빠르고 높은 인가율! 책임관리!">
+<meta name="description" content="대구 법원앞, 개인회생, 개인파산, 법인회생, 법인회생, 민사, 상속 등 무료 상담, 빠르고 높은 인가율! 책임관리!">
 <meta property="og:type" content="website">
 <meta property="og:title" content="법률사무소 해밀 박상은 변호사">
-<meta property="og:description" content="대구 법원앞, 개인회생, 개인파산, 민사 등 무료 상담, 빠르고 높은 인가율! 책임관리!">
-<meta property="og:image" content="http://www.119-law.com/logo.png">
-<meta property="og:url" content="http://www.119-law.com">
-<link rel="canonical" href="http://www.119-law.com/">
+<meta property="og:description" content="대구 법원앞, 개인회생, 개인파산, 법인회생, 법인회생, 민사, 상속 등 무료 상담, 빠르고 높은 인가율! 책임관리!">
+<meta property="og:image" content="http://www.helpful-law.com/logo.png">
+<meta property="og:url" content="http://www.helpful-law.com">
+<link rel="canonical" href="http://www.helpful-law.com">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/common.css?ver=4">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/slick/slick-theme.css?ver=0"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/slick/slick.min.js"></script>
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a3d28e9c9d28c7930cf4fcc7be5bd5f8&libraries=drawing"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b6deba15bc94d75bff7aab3b25d06222&libraries=drawing"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 @media only screen and (min-width:320px) and (max-width:766px){
@@ -514,7 +514,7 @@
 				</div>
 				<div class="section2Content_content">
 					<img class="pcTimeImg" src="${pageContext.request.contextPath}/resources/images/mainContentBoxImg3.jpg">
-					<img class="mTimeImg" src="${pageContext.request.contextPath}/resources/images/timeTest2.jpg">
+					<img class="mTimeImg" src="${pageContext.request.contextPath}/resources/images/mMainContentBoxImg3.jpg">
 				</div>
 			</div>
 			<div class="contentBox4 contentBox">
@@ -546,14 +546,14 @@
 				<script>
 					var container = document.getElementById('map');
 					var options = {
-						center: new daum.maps.LatLng(35.862336, 128.627921),
+						center: new daum.maps.LatLng(35.865769, 128.626379),
 						level: 3
 					};
 			
 					var map = new daum.maps.Map(container, options);
 					
 					// 마커가 표시될 위치입니다 
-					var markerPosition  = new daum.maps.LatLng(35.862336, 128.627921); 
+					var markerPosition  = new daum.maps.LatLng(35.865769, 128.626379); 
 
 					// 마커를 생성합니다
 					var marker = new daum.maps.Marker({
@@ -564,7 +564,7 @@
 					marker.setMap(map);
 					
 					// 마커에 커서가 오버됐을 때 마커 위에 표시할 인포윈도우를 생성합니다.
-					var iwContent = '<div style="padding-left:15px; padding-top:2px; color:#033c60; font-size:15px; font-weight:bold;">법률사무소 해밀</div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+					var iwContent = '<div style="padding-left:25px; padding-top:2px; color:#033c60; font-size:15px; font-weight:bold;">법률사무소 해밀</div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
 
 					// 인포윈도우를 생성합니다
 					var infowindow = new daum.maps.InfoWindow({

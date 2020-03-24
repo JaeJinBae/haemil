@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>법무사 김재현 사무소</title>
+<title>법률사무소 해밀 박상은 변호사</title>
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/common.css?ver=4">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -70,7 +70,7 @@
 		font-size: 17px;
 		color:white;
 		line-height: 45px;
-		margin:0 15px;
+		margin:0 10px;
 	}
 	.navWrap .navUl > li:first-child{
 		text-align: center;
@@ -82,14 +82,10 @@
 		margin-top:10px;
 	}
 	.navWrap .navUl > li a > .btnArrow{
-		margin-left:25px; 
 		margin-right:10px;
 		margin-top:14px;
 		float:right;
 		width:20px;
-	}
-	.navWrap .navUl > li:last-child a > .btnArrow{
-		margin-left:15px;
 	}
 	.sub_subDropdown{
 		display: none;

@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>법무사 김재현 사무소</title>
+<title>법률사무소 해밀 박상은 변호사</title>
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/common.css?ver=4">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/collapsibleQnA.js"></script>
@@ -71,7 +71,7 @@
 		font-size: 16px;
 		color:white;
 		line-height: 45px;
-		margin:0 15px;
+		margin:0 10px;
 	}
 	.navWrap .navUl > li:first-child{
 		text-align: center;
@@ -83,14 +83,10 @@
 		margin-top:10px;
 	}
 	.navWrap .navUl > li a > .btnArrow{
-		/* margin-left:25px; */ 
 		margin-right:10px;
 		margin-top:14px;
 		float:right;
 		width:20px;
-	}
-	.navWrap .navUl > li:last-child a > .btnArrow{
-		margin-left:15px;
 	}
 	.sub_subDropdown{
 		display: none;
@@ -556,7 +552,7 @@
 				<h1 class="contentTitle">법인회생 FAQ</h1>
 				<ul class="collapsibleWrap">
 					<li class="collapsible">
-						<h2 class="collapsible_title"><a href="#none">Q. </a></h2> 
+						<h2 class="collapsible_title"><a href="#none">Q. 법원에 납부하는 예납금이라는 것은 무엇인가요?</a></h2> 
 						<p class="collapsibleContent">
 							회생절차가 개시되면 관리인(통상 법인의 대표이사)은 즉시 채무자 회사에 속하는 재산의 가액을 평가하고, 재산목록과 대차대조표를 작성하며, 채무자가 회생절차에 이르게 된 사정, 채무자의 업무 및 재산에 관한 사항, 
 							보전처분 또는 조사확정재판을 필요로 하는 사정의 유무, 그 밖에 채무자의 회생에 필요한 사항 등을 조사하여야 하나, 관리인의 위와 같은 사항에 대하여 조사할 경우 정확성 및 

@@ -7,10 +7,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>법무사 김재현 사무소</title>
+<title>법률사무소 해밀 박상은 변호사</title>
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/common.css?ver=4">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a3d28e9c9d28c7930cf4fcc7be5bd5f8&libraries=drawing"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b6deba15bc94d75bff7aab3b25d06222&libraries=drawing"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 @media only screen and (min-width:320px) and (max-width:766px){
@@ -461,14 +461,14 @@
 					<script>
 						var container = document.getElementById('map');
 						var options = {
-							center: new daum.maps.LatLng(35.862901, 128.625454),
+							center: new daum.maps.LatLng(35.865769, 128.626379),
 							level: 3
 						};
 				
 						var map = new daum.maps.Map(container, options);
 						
 						// 마커가 표시될 위치입니다 
-						var markerPosition  = new daum.maps.LatLng(35.862901, 128.625454); 
+						var markerPosition  = new daum.maps.LatLng(35.865769, 128.626379); 
 	
 						// 마커를 생성합니다
 						var marker = new daum.maps.Marker({
@@ -479,7 +479,7 @@
 						marker.setMap(map);
 						
 						// 마커에 커서가 오버됐을 때 마커 위에 표시할 인포윈도우를 생성합니다.
-						var iwContent = '<div style="padding-left:15px; padding-top:2px; color:#ff6d00; font-size:15px; font-weight:bold;">법무사김재현사무소</div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+						var iwContent = '<div style="padding-left:25px; padding-top:2px; color:#ff6d00; font-size:15px; font-weight:bold;">법률사무소 해밀</div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
 	
 						// 인포윈도우를 생성합니다
 						var infowindow = new daum.maps.InfoWindow({

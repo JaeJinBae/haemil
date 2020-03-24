@@ -16,7 +16,7 @@
 		margin:0 auto;
 	}
 	.logo > img{
-		width:150px; 
+		width:180px; 
 	}
 	.menuIcon{
 		width:30px;
