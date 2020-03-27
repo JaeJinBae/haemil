@@ -14,20 +14,20 @@
 	<!-- Root Context: defines shared resources visible to all other web components -->
 	
 	<!-- 호스팅용 -->	
-	<!-- <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-		<property name="url" value="jdbc:mysql://localhost:3306/priveskin"/>
-		<property name="username" value="priveskin"/>
-		<property name="password" value="priveskin12!"/>
-	</bean> -->
+		<property name="url" value="jdbc:mysql://localhost:3306/helpfullaw"/>
+		<property name="username" value="helpfullaw"/>
+		<property name="password" value="helpfullaw12!"/>
+	</bean>
 	
 	<!-- 개발용 -->
-	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<!-- <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
 		<property name="url" value="jdbc:mysql://127.0.0.1:3306/prive"/>
 		<property name="username" value="root"/>
 		<property name="password" value="rootroot"/>
-	</bean>
+	</bean> -->
 
 	
 	<!-- 로그 찍히게 하는 녀석 -->

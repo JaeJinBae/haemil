@@ -449,11 +449,13 @@
 	</header>
 	<div class="mainSlider">
 		<div class="mainBanner pcMainBanner">
+			<div><img src="${pageContext.request.contextPath}/resources/images/mainSlider4.jpg" alt="법률사무소해밀 박상은변호사"></div>
 			<div><img src="${pageContext.request.contextPath}/resources/images/mainSlider1.jpg" alt="법률사무소해밀 박상은변호사"></div>
 			<div><img src="${pageContext.request.contextPath}/resources/images/mainSlider2.jpg" alt="법률사무소해밀 박상은변호사"></div>
 			<div><img src="${pageContext.request.contextPath}/resources/images/mainSlider3.jpg" alt="법률사무소해밀 박상은변호사"></div>
 		</div>
 		<div class="mainBanner tmMainBanner">
+			<div><img src="${pageContext.request.contextPath}/resources/images/tmMainSlider4.jpg" alt="법률사무소해밀 박상은변호사"></div>
 			<div><img src="${pageContext.request.contextPath}/resources/images/tmMainSlider1.jpg" alt="법률사무소해밀 박상은변호사"></div>
 			<div><img src="${pageContext.request.contextPath}/resources/images/tmMainSlider2.jpg" alt="법률사무소해밀 박상은변호사"></div>
 			<div><img src="${pageContext.request.contextPath}/resources/images/tmMainSlider3.jpg" alt="법률사무소해밀 박상은변호사"></div>
@@ -464,7 +466,7 @@
 			<div class="content01">
 				<div class="smallTitle">
 					<h2>법률사무소 해밀 박상은 변호사</h2>
-					<p>오랜 경력의 전문가가 최상의 서비스를 제공합니다.</p>
+					<p>오랜 경력의 노하우로 최상의 서비스를 제공합니다.</p>
 				</div>
 				<div class="boxWrap">
 					<div class="mainInfo info01">

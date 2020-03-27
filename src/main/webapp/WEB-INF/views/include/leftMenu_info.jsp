@@ -3,6 +3,7 @@
 <div class="callInfo">
 	<h4 class="callInfoTitle" id="callInfoTitle">상담센터</h4>
 	<h3>1877-0757</h3>
+	<h3>053-754-0969</h3>
 	<h3 class="secondChild">010-3569-0969</h3>
 	<!-- <h5>Fax. 053-743-1190</h5> --> 
 	<h5 style="text-transform:none;">E-mail. helpful-law@nate.com</h5>
